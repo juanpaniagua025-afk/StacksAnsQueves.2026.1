@@ -1,6 +1,6 @@
 ﻿namespace StacksAndQueues.Backend;
 
-public class StackUsingArray<T>
+public class StackUsingArray<T> : IStack<T>
 {
 	private T[] _stack;
 	private int _top;
@@ -17,17 +17,17 @@ public class StackUsingArray<T>
 		{
 			throw new InvalidCastException("Stack is full.");
 		}
-	    _stack[++_top] = item;
+		_stack[++_top] = item;
 	}
 
 	public T Pop()
 	{
-        if ( _top == -1)
+		if (_top == -1)
 		{
 			throw new InvalidOperationException("Stack is empty.");
-	    }
+		}
 		return _stack[_top--];
-    }
+	}
 
 	public T Peek()
 	{

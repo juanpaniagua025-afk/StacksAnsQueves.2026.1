@@ -1,5 +1,4 @@
-﻿using StacksAndQueues.Backend;
-var stack = new StackUsingArray<string>(5);
+﻿var stack = new Stack<string>();
 var option = string.Empty;
 
 do
@@ -8,7 +7,7 @@ do
 	switch(option)
 	{
 		case "1":
-			Console.Write("Digite el elemento a apilar: ");
+			Console.Write("Digite el elemento a apilar: "); 
 			var element = Console.ReadLine() ?? string.Empty;
 			stack.Push(element);
 			Console.WriteLine($"Elemento '{element}' apilado.");

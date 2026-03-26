@@ -6,6 +6,22 @@
       <HashCode>AAAAAAAAAAAGAAAAAAAAAAAAAACAAAAAAAAAAAAACBA=</HashCode>
       <FileName>StackUsingArray.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
+  <Class Name="StacksAndQueues.Backend.StackUsingList&lt;T&gt;">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAACAAAAAAAAAAAAACBA=</HashCode>
+      <FileName>StackUsingList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="StacksAndQueues.Backend.IStack&lt;T&gt;">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAACAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>IStack.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
